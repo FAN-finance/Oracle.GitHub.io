@@ -2,9 +2,8 @@
 
 ## 总体结构
 
-<div>
-  <img src="../images/architecture.png" alt="总体架构图" style="zoom: 33%;" />  
-</div>
+<img src="assets/architecture.png" alt="总体架构图" style="zoom: 33%;" />  
+
 
 
 如上图，整个系统分为四个部分

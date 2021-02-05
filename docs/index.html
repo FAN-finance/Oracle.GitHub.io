@@ -12,10 +12,6 @@
 </head>
 
 <body>
-    <nav>
-      <a href="#/doc">CN</a>
-      <a href="#/en/">EN</a>
-    </nav>
     <div id="app"></div>
     <script>
         window.$docsify = {
@@ -24,7 +20,8 @@
             auto2top: true,
             loadSidebar: true,
             subMaxLevel: 2,
-            themeColor: '#2f54eb'
+            themeColor: '#2f54eb',
+            fallbackLanguages:['cn','en']
         }
     </script>
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>

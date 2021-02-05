@@ -10,8 +10,8 @@
 </head>
 <body>
   <div id="localtion" class="btnGroup">
-    <div class="btn">EN</div>
-    <div class="btn">CN</div>
+    <button class="btn en">EN</button>
+    <button class="btn cn">CN</button>
   </div>
   <div id="app"></div>
   <script>
@@ -31,6 +31,15 @@
       position:fixed;
       top:20px;
       right:100px;
+      display:flex;
+    }
+    .btn{
+      box-shadow: 10px 10px 5px #888888;
+    }
+    .en{
+    }
+    .cn{
+      background:#42b983;
     }
   </style>
 </html>

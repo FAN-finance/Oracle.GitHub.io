@@ -217,7 +217,8 @@ main {
     position: relative;
     width: 800px;
     height: 100%;
-    z-index: 0
+    z-index: 0;
+    margin:0 auto;
 }
 
 main.hidden {

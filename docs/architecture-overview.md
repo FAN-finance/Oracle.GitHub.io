@@ -2,7 +2,7 @@
 
 ## 总体结构
 
-<img src="assets/architecture.png" alt="总体架构图" style="zoom: 33%;" />  
+<img src="assets/architecture.jpg" alt="总体架构图" style="zoom: 33%;" />  
 
 
 

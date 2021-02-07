@@ -215,7 +215,7 @@ li input[type=checkbox] {
 main {
     display: block;
     position: relative;
-    width: 800px;
+    width: 1200px;
     height: 100%;
     z-index: 0;
     margin:0 auto;
@@ -688,7 +688,7 @@ section.cover ul {
     line-height: 1.8;
     list-style-type: none;
     margin: 1em auto;
-    max-width: 500px;
+    max-width: 900px;
     padding: 0
 }
 

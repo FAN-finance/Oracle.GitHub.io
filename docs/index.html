@@ -9,10 +9,13 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/buble.css">
 </head>
 
 <body>
-    <div id="app"></div>
+    <div id="app">
+        <div id="mdBody"></div>
+    </div>
     <script>
         window.$docsify = {
             name: 'Oracle DOCS',
@@ -22,7 +25,8 @@
             loadNavbar:true,
             subMaxLevel: 2,
             themeColor: '#2f54eb',
-            fallbackLanguages:['cn','en']
+            fallbackLanguages:['cn','en'],
+            el:"#mdBody"
         }
     </script>
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>

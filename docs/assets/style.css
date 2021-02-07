@@ -19,14 +19,14 @@ body:not(.ready) [data-cloak] {
     display: none
 }
 
-div#mdBody {
+div#app {
     font-size: 20px;
     font-weight: lighter;
     margin: 40vh auto;
     text-align: center
 }
 
-div#mdBody:empty:before {
+div#app:empty:before {
     content: "Loading..."
 }
 

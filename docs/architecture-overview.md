@@ -1,6 +1,6 @@
 # 体系结构概述
 
-## 总体结构
+
 
 <img src="assets/architecture.jpg" alt="总体架构图" style="zoom: 33%;" />  
 

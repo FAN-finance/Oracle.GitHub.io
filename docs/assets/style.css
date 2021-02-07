@@ -736,7 +736,6 @@ body {
 
 .sidebar ul li a:hover {
     text-decoration: none;
-    background:var(--theme-color, #42b983)
 }
 
 .sidebar ul li ul {
@@ -745,7 +744,7 @@ body {
 
 .sidebar ul li.active>a {
     border-right: 2px solid;
-    color: var(--theme-color, #FFF);
+    color: var(--theme-color, #42b983);
     font-weight: 600
 }
 

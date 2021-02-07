@@ -362,7 +362,8 @@ body.sticky .sidebar-toggle {
     right: 0;
     bottom: 0;
     left: 300px;
-    transition: left .25s ease
+    transition: left .25s ease;
+    overflow-y:auto;
 }
 
 .markdown-section {
@@ -506,6 +507,22 @@ body.close .content {
     main {
         height: auto;
         overflow-x: hidden
+    }
+    main::-webkit-scrollbar {
+        width: 4px
+    }
+
+    main::-webkit-scrollbar-thumb {
+        background: transparent;
+        border-radius: 4px
+    }
+
+    main:hover::-webkit-scrollbar-thumb {
+        background: hsla(0, 0%, 53.3%, .4)
+    }
+
+    main:hover::-webkit-scrollbar-track {
+        background: hsla(0, 0%, 53.3%, .1)
     }
 
     .sidebar {

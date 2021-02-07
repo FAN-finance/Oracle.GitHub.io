@@ -365,7 +365,22 @@ body.sticky .sidebar-toggle {
     transition: left .25s ease;
     overflow-y:auto;
 }
+    .content::-webkit-scrollbar {
+        width: 4px
+    }
 
+    .content::-webkit-scrollbar-thumb {
+        background: transparent;
+        border-radius: 4px
+    }
+
+    .content:hover::-webkit-scrollbar-thumb {
+        background: hsla(0, 0%, 53.3%, .4)
+    }
+
+    .content:hover::-webkit-scrollbar-track {
+        background: hsla(0, 0%, 53.3%, .1)
+    }
 .markdown-section {
     margin: 0 auto;
     max-width: 80%;
@@ -508,22 +523,7 @@ body.close .content {
         height: auto;
         overflow-x: hidden
     }
-    main::-webkit-scrollbar {
-        width: 4px
-    }
-
-    main::-webkit-scrollbar-thumb {
-        background: transparent;
-        border-radius: 4px
-    }
-
-    main:hover::-webkit-scrollbar-thumb {
-        background: hsla(0, 0%, 53.3%, .4)
-    }
-
-    main:hover::-webkit-scrollbar-track {
-        background: hsla(0, 0%, 53.3%, .1)
-    }
+    
 
     .sidebar {
         left: -300px;

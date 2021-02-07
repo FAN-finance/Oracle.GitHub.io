@@ -244,13 +244,13 @@ main.hidden {
     overflow-y: auto;
     padding: 40px 0 0;
 /*     position: absolute; */
+    heigh:100vh;
     top: 0;
     bottom: 0;
     left: 0;
     transition: transform .25s ease-out;
     width: 300px;
     z-index: 20;
-    background:#
 }
 
 .sidebar>h1 {
@@ -350,10 +350,10 @@ main.hidden {
     height: 2px
 }
 
-body.sticky .sidebar,
+/* body.sticky .sidebar,
 body.sticky .sidebar-toggle {
     position: fixed
-}
+} */
 
 .content {
     padding-top: 60px;

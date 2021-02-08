@@ -20,7 +20,7 @@ body:not(.ready) [data-cloak] {
 }
 
 div#app {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: lighter;
     margin: 40vh auto;
     text-align: center
@@ -133,8 +133,7 @@ li input[type=checkbox] {
     transition: color .3s
 }
 
-.app-nav a.
-,
+.app-nav a.active,
 .app-nav a:hover {
     color: var(--theme-color, #42b983)
 }
@@ -170,7 +169,7 @@ li input[type=checkbox] {
 
 .app-nav li ul li {
     display: block;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1rem;
     margin: 8px 14px;
     white-space: nowrap
@@ -215,10 +214,9 @@ li input[type=checkbox] {
 main {
     display: block;
     position: relative;
-    width: 1200px;
+    width: 100vw;
     height: 100%;
-    z-index: 0;
-    margin:0 auto;
+    z-index: 0
 }
 
 main.hidden {
@@ -243,19 +241,18 @@ main.hidden {
     border-right: 1px solid rgba(0, 0, 0, .07);
     overflow-y: auto;
     padding: 40px 0 0;
-/*     position: absolute; */
-    height:100vh;
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     transition: transform .25s ease-out;
     width: 300px;
-    z-index: 20;
+    z-index: 20
 }
 
 .sidebar>h1 {
     margin: 0 auto 1rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
     margin: 0 0 0 15px;
@@ -292,8 +289,7 @@ main.hidden {
 
 .sidebar ul,
 .sidebar ul li {
-    list-style: none;
-    cursor:pointer;
+    list-style: none
 }
 
 .sidebar ul li a {
@@ -335,8 +331,7 @@ main.hidden {
     transition: opacity .3s;
     width: 284px;
     z-index: 30;
-    cursor: pointer;
-        display:none;
+    cursor: pointer
 }
 
 .sidebar-toggle:hover .sidebar-toggle-button {
@@ -351,10 +346,10 @@ main.hidden {
     height: 2px
 }
 
-/* body.sticky .sidebar,
+body.sticky .sidebar,
 body.sticky .sidebar-toggle {
     position: fixed
-} */
+}
 
 .content {
     padding-top: 60px;
@@ -363,25 +358,9 @@ body.sticky .sidebar-toggle {
     right: 0;
     bottom: 0;
     left: 300px;
-    transition: left .25s ease;
-    overflow-y:auto;
+    transition: left .25s ease
 }
-    .content::-webkit-scrollbar {
-        width: 4px
-    }
 
-    .content::-webkit-scrollbar-thumb {
-        background: transparent;
-        border-radius: 4px
-    }
-
-    .content:hover::-webkit-scrollbar-thumb {
-        background: hsla(0, 0%, 53.3%, .4)
-    }
-
-    .content:hover::-webkit-scrollbar-track {
-        background: hsla(0, 0%, 53.3%, .1)
-    }
 .markdown-section {
     margin: 0 auto;
     max-width: 80%;
@@ -453,7 +432,7 @@ body.sticky .sidebar-toggle {
     color: #fff;
     content: "!";
     font-family: Dosis, Source Sans Pro, Helvetica Neue, Arial, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     left: -12px;
     line-height: 20px;
@@ -524,7 +503,6 @@ body.close .content {
         height: auto;
         overflow-x: hidden
     }
-    
 
     .sidebar {
         left: -300px;
@@ -663,7 +641,7 @@ section.cover p {
 
 section.cover h1 {
     color: inherit;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 300;
     margin: .625rem 0 2.5rem;
     position: relative;
@@ -676,12 +654,12 @@ section.cover h1 a {
 
 section.cover h1 small {
     bottom: -.4375rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
     position: absolute
 }
 
 section.cover blockquote {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: center
 }
 
@@ -689,7 +667,7 @@ section.cover ul {
     line-height: 1.8;
     list-style-type: none;
     margin: 1em auto;
-    max-width: 900px;
+    max-width: 500px;
     padding: 0
 }
 
@@ -699,7 +677,7 @@ section.cover .cover-main>p:last-child a {
     box-sizing: border-box;
     color: var(--theme-color, #42b983);
     display: inline-block;
-    font-size: 0.9rem;
+    font-size: 1.05rem;
     letter-spacing: .1rem;
     margin: .5rem 1rem;
     padding: .75em 2rem;
@@ -745,7 +723,7 @@ body {
 
 .sidebar ul li a {
     color: #505d6b;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     overflow: hidden;
     text-decoration: none;
@@ -755,7 +733,6 @@ body {
 
 .sidebar ul li a:hover {
     text-decoration: none;
-    background:#DBDEE9;
 }
 
 .sidebar ul li ul {
@@ -765,8 +742,7 @@ body {
 .sidebar ul li.active>a {
     border-right: 2px solid;
     color: var(--theme-color, #42b983);
-    font-weight: 600;
-    background:#DBDEE9;
+    font-weight: 600
 }
 
 .app-sub-sidebar li:before {
@@ -790,31 +766,31 @@ body {
 }
 
 .markdown-section h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin: 0 0 1rem
 }
 
 .markdown-section h2 {
-    font-size: 1.6rem;
+    font-size: 1.75rem;
     margin: 45px 0 .8rem
 }
 
 .markdown-section h3 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin: 40px 0 .6rem
 }
 
 .markdown-section h4 {
-    font-size: 1.1rem
+    font-size: 1.25rem
 }
 
 .markdown-section h5 {
-    font-size: 0.9rem
+    font-size: 1rem
 }
 
 .markdown-section h6 {
     color: #777;
-    font-size: 0.9rem
+    font-size: 1rem
 }
 
 .markdown-section figure,
@@ -857,7 +833,7 @@ body {
 .markdown-section code {
     border-radius: 2px;
     color: #e96900;
-    font-size: .75rem;
+    font-size: .8rem;
     margin: 0 2px;
     padding: 3px 5px;
     white-space: pre-wrap
@@ -984,7 +960,7 @@ body {
     color: #525252;
     display: block;
     font-family: Roboto Mono, Monaco, courier, monospace;
-    font-size: .7rem;
+    font-size: .8rem;
     line-height: inherit;
     margin: 0 2px;
     max-width: inherit;

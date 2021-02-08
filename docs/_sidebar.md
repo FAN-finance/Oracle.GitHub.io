@@ -1,10 +1,9 @@
 - 介绍
   - [开始](README.md)
   - [教程](tutorials.md)
-  - 体系结构
-    - [体系结构概述](architecture-overview.md)
-    - [分布式数据模式](architecture-decentralized-model.md)
-    - [请求反馈模式](architecture-request-model.md)
+  - [体系结构概述](architecture-overview.md)
+  - [分布式数据模式](architecture-decentralized-model.md)
+  - [请求反馈模式](architecture-request-model.md)
 - 数字资产价格预言机
   - [介绍](oracle-price-introduction.md)
   - [获取最新报价](oracle-price-get-the-lastest-price.md)

@@ -9,7 +9,7 @@
 - 节点喂价程序
 - 预言机
 
-<p align="center"><img src="assets/architecture.jpg" alt="总体架构图" width="600" /> </p>
+<img src="assets/architecture.jpg" alt="总体架构图" width="600" />
 
 
 

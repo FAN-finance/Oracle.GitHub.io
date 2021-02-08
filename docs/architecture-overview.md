@@ -2,16 +2,16 @@
 
 
 
-<img src="assets/architecture.jpg" alt="总体架构图" style="zoom: 20%;" />  
-
-
-
-如上图，整个系统分为四个部分
+如图所示，整个系统分为四个部分：
 
 - 数据采集
 - HTTP API
 - 节点喂价程序
 - 预言机
+
+<p align="center"><img src="assets/architecture.jpg" alt="总体架构图" width="600" /> </p>
+
+
 
 
 

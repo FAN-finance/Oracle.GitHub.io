@@ -8,6 +8,7 @@
 - 数字资产价格预言机
   - [介绍](oracle-price-introduction.md)
   - [获取最新报价](oracle-price-get-the-lastest-price.md)
+  - [FAN治理币](fan_g.md)
   - [api-reference](oracle-price-feeds-api-reference.md)
 - 美国十大城市房产抵押贷款利率预言机
   - [介绍](oracle-rate-introduction.md)

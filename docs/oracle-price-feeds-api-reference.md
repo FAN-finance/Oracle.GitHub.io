@@ -1,6 +1,6 @@
-# API Reference
+# Reference API
 
-API reference for getPriceInterface
+Reference API for getPriceInterface
 
 ## Function
 

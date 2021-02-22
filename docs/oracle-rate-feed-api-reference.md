@@ -1,6 +1,6 @@
-# API Reference
+# Reference API
 
-API reference for getRateInterface
+Reference API for getRateInterface
 
 ## Function
 
@@ -64,7 +64,7 @@ Return Values
 
 ### product
 
-| product                 | value |
+| mortgage rate           | value |
 | ----------------------- | ----- |
 | 15 year fixed refinance | 1     |
 | 15 year jumbo refinance | 2     |

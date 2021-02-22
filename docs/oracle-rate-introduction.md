@@ -19,9 +19,9 @@
 | Pittsburgh    | 9     |
 | Atlanta       | 10    |
 
-## 支持产品
+## 支持贷款类型
 
-| product                 | value |
+| mortgage type           | value |
 | ----------------------- | ----- |
 | 15 year fixed refinance | 1     |
 | 15 year jumbo refinance | 2     |
